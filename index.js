@@ -143,5 +143,6 @@ form.addEventListener("submit", function (e) {
 
   // submit to the server if the form is valid
   if (isFormValid) {
+    form.submit();
   }
 });
