@@ -103,6 +103,7 @@ form {
     padding-top: 20px;
     padding-bottom: 5px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
 }
 
 .trial-form {
@@ -121,6 +122,23 @@ input {
     border-radius: 5px;
     border-width: thin;
     border-color: rgb(226, 220, 220);
+}
+
+.error {
+    border-color: #dc3545;
+}
+
+.form-field {
+    width: 100%;
+}
+
+.success {
+    border-color: #28a745;
+}
+
+small {
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
 }
 
 /* Trial Button */
